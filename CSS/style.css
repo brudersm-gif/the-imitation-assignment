@@ -18,7 +18,7 @@ div.penguins {
 div.football_field {
   background-image: url(../images/football_field.jpg);
   background-repeat: no-repeat;
-  background-size: auto 180px;
+  background-size: auto 183px;
   background-position: 50% 50%;
   background-origin: content-box;
   border: 40px solid black;
@@ -34,7 +34,19 @@ div.dinosaur {
   background-size: auto 200px;
   background-position: 50% 50%;
   background-origin: content-box;
+  border: 1px solid black;
   height: 200px;
+  width: 400px;
   -webkit-filter: drop-shadow(5px 5px 5px #000000);
-  filter: drop-shadow(5px 5px 5px #000000), hue-rotate(90deg);
+  filter: drop-shadow(5px 5px 5px #000000) hue-rotate(90deg);
+}
+div.butterfly {
+  background-image: url(../images/butterfly.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 200px;
+  background-position: 50% 50%;
+  background-origin: content-box;
+  border: 1px solid black;
+  height: 200px;
+  width: 400px;
 }
