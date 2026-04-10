@@ -9,7 +9,7 @@ div.penguins {
   height: 200px;
 }
 div.football_field {
-  background-image: url(football_field.jpg), url(tic-tac-toe.png);
+  background-image: url(images/football_field.jpg), url(images/tic-tac-toe.png);
   background-repeat: no-repeat;
   border: 1px solid black;
   border-image: url(images/tic-tac-toe.png) 30 round;
