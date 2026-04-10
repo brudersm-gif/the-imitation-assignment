@@ -1,12 +1,11 @@
 div.penguins {
+  background-image: url(images/penguins.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100px;
   -webkit-filter: sepia(20%);
   filter: sepia(20%);
   border: 3px solid black;
   border-radius: 50%;
-  background-image: url(images/penguins.jpg);
-  background-repeat: no-repeat;
-  background-size:200px auto;
-  background-position: 0px 0px 5px 5px;
 }
 div.football_field {
   background-image: url(images/football_field.jpg), url(images/tic-tac-toe.png);
