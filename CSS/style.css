@@ -23,12 +23,12 @@ div.penguins1 {
   border: 3px solid black;
   border-radius: 60%;
   height: 200px;
-  width: 100%;
+  width: 400px;
 }
 div.penguins2 {
   background-image: url(../images/penguins.jpg);
   background-repeat: no-repeat;
-  background-size: auto 200px;
+  background-size: auto 300px;
   background-origin: content-box;
   background-position: 50% 50%;
   -webkit-filter: sepia(20%);
@@ -48,7 +48,8 @@ div.penguins3 {
   filter: sepia(20%);
   border: 3px solid black;
   border-radius: 60%;
-  height: 200px;
+  height: 300px;
+  width: 400px;
 }
 
 /* other images here */
