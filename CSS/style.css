@@ -5,6 +5,7 @@ div.penguins {
   border-radius: 50%;
   background-image: url(images/penguins.jpg);
   background-repeat: no-repeat;
+  background-size:200px auto;
 }
 div.football_field {
   background-image: url(images/football_field.jpg), url(images/tic-tac-toe.png);
