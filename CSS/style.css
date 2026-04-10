@@ -41,7 +41,7 @@ div.dinosaur {
   filter: drop-shadow(5px 5px 5px #000000) hue-rotate(90deg);
 }
 div.seagull {
-  background-image: url(../images/seagull.png), linear-gradient(to right, rgba(123, 104, 238, 1.0), Lavender, Snow);
+  background-image: url(../images/seagull.png), linear-gradient(diagonal to right, rgba(123, 104, 238, 0.70) 43%, Lavender 14%, Snow 43%);
   background-repeat: no-repeat;
   background-size: auto 200px;
   background-position: 50% 50%;
