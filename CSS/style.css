@@ -1,5 +1,6 @@
 div {
   height: 200px;
+  margin: auto;
 }
 div.penguins {
   background-image: url(../images/penguins.jpg);
