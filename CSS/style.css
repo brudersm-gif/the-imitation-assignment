@@ -46,9 +46,8 @@ div.seagull {
   background-size: auto 200px;
   background-position: 50% 50%;
   background-origin: content-box;
-  border: 1px solid black;
-  -webkit-filter: drop-shadow(5px 5px 0px lightgrey);
-  filter: drop-shadow(5px 5px 0px lightgrey);
+  -webkit-filter: drop-shadow(10px 10px 0px lightgrey);
+  filter: drop-shadow(10px 10px 0px lightgrey);
   height: 200px;
   width: 400px;
 }
@@ -59,8 +58,8 @@ div.seagull2 {
   background-position: 50% 50%;
   background-origin: content-box;
   border: 1px solid white;
-  -webkit-filter: drop-shadow(5px 5px 5px #000000);
-  filter: drop-shadow(5px 5px 5px #000000);
+  -webkit-filter: drop-shadow(5px 5px 5px lightgrey);
+  filter: drop-shadow(5px 5px 5px lightgrey);
   height: 200px;
   width: 400px;
 }
