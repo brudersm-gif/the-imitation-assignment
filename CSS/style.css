@@ -12,7 +12,7 @@ div.penguins {
   border: 3px solid black;
   border-radius: 60%;
 }
-div.penguins {
+div.penguins1 {
   background-image: url(../images/penguins.jpg);
   background-repeat: no-repeat;
   background-size: auto 300px;
@@ -23,7 +23,7 @@ div.penguins {
   border: 3px solid black;
   border-radius: 60%;
 }
-div.penguins {
+div.penguins2 {
   background-image: url(../images/penguins.jpg);
   background-repeat: no-repeat;
   background-size: auto 200px;
@@ -33,7 +33,7 @@ div.penguins {
   border: 3px solid black;
   border-radius: 60%;
 }
-div.penguins {
+div.penguins3 {
   background-image: url(../images/penguins.jpg);
   background-repeat: no-repeat;
   background-size: auto 200px;
