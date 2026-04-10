@@ -20,8 +20,8 @@ div.penguins1 {
   background-size: auto 200px;
   background-origin: content-box;
   background-position: 50% 50%;
-  -webkit-filter: sepia(20%);
-  filter: sepia(20%);
+  -webkit-filter: sepia(30%);
+  filter: sepia(30%);
   border: 3px solid black;
   border-radius: 60%;
   height: 200px;
@@ -33,8 +33,8 @@ div.penguins2 {
   background-size: auto 300px;
   background-origin: content-box;
   background-position: 50% 50%;
-  -webkit-filter: sepia(20%);
-  filter: sepia(20%);
+  -webkit-filter: sepia(40%);
+  filter: sepia(40%);
   border: 3px solid black;
   border-radius: 60%;
   height: 200px;
