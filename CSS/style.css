@@ -1,7 +1,7 @@
 div {
   height: 200px;
 }
-div.penguins2 {
+div.penguins {
   background-image: url(../images/penguins.jpg);
   background-repeat: no-repeat;
   background-size: auto 250px;
