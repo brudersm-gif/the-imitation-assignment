@@ -6,7 +6,7 @@ div.penguins {
   background-repeat: no-repeat;
   background-size: auto 200px;
   background-origin: content-box;
-  background-position: 0px 0px;
+  background-position: 50% 50%;
   -webkit-filter: sepia(20%);
   filter: sepia(20%);
   border: 3px solid black;
