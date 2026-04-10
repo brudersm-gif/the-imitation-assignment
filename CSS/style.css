@@ -12,6 +12,40 @@ div.penguins {
   border: 3px solid black;
   border-radius: 60%;
 }
+div.penguins {
+  background-image: url(../images/penguins.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 300px;
+  background-origin: content-box;
+  background-position: 50% 50%;
+  -webkit-filter: sepia(20%);
+  filter: sepia(20%);
+  border: 3px solid black;
+  border-radius: 60%;
+}
+div.penguins {
+  background-image: url(../images/penguins.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 200px;
+  background-position: 50% 50%;
+  -webkit-filter: sepia(20%);
+  filter: sepia(20%);
+  border: 3px solid black;
+  border-radius: 60%;
+}
+div.penguins {
+  background-image: url(../images/penguins.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 200px;
+  background-origin: content-box;
+  background-position: 0% 0%;
+  -webkit-filter: sepia(20%);
+  filter: sepia(20%);
+  border: 3px solid black;
+  border-radius: 60%;
+}
+
+/* other images here */
 div.football_field {
   background-image: url(../images/football_field.jpg);
   background-repeat: no-repeat;
