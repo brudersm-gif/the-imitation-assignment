@@ -46,6 +46,7 @@ div.seagull {
   background-size: auto 200px;
   background-position: 50% 50%;
   background-origin: content-box;
+  border: none;
   -webkit-filter: drop-shadow(10px 10px 0px lightgrey);
   filter: drop-shadow(10px 10px 0px lightgrey);
   height: 200px;
@@ -70,6 +71,20 @@ div.butterfly {
   background-position: 50% 50%;
   background-origin: content-box;
   border: 1px solid black;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  height: 200px;
+  width: 400px;
+}
+div.butterfly {
+  background-image: url(../images/butterfly.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 200px;
+  background-position: 50% 50%;
+  background-origin: content-box;
+  border: 1px solid black;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
   height: 200px;
   width: 400px;
 }
