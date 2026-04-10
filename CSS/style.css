@@ -1,6 +1,5 @@
 div {
-  width: 300px;
-  height: 300px;
+  height: 400px;
 }
 div.penguins {
   background-image: url(../images/penguins.jpg);
