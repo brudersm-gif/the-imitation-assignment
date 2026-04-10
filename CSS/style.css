@@ -47,6 +47,8 @@ div.seagull {
   background-position: 50% 50%;
   background-origin: content-box;
   border: 1px solid black;
+  -webkit-filter: drop-shadow(5px 5px 0px lightgrey);
+  filter: drop-shadow(5px 5px 0px lightgrey);
   height: 200px;
   width: 400px;
 }
