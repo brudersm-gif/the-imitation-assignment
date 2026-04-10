@@ -25,3 +25,13 @@ div.football_field {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
+div.dinosaur {
+  background-image: url(../images/dinosaur.png);
+  background-repeat: no-repeat;
+  background-size: auto 200px;
+  background-position: 50% 50%;
+  background-origin: content-box;
+  height: 200px;
+  -webkit-filter: drop-shadow(-5px -5px 5px #000000);
+  filter: drop-shadow(-5px -5px 5px #000000);
+}
