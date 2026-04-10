@@ -1,6 +1,5 @@
 div {
-  height: 400px;
-  width: 800px;
+  height: 200px;
 }
 div.penguins {
   background-image: url(../images/penguins.jpg);
@@ -20,6 +19,8 @@ div.football_field {
   background-position: 50% 50%;
   background-origin: content-box;
   border: 1px solid black;
-  border-image: url(images/tic-tac-toe.png) 30 round;
+  border-image: url(../images/tic-tac-toe.png) 30 round;
   height: 200px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
