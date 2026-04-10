@@ -4,7 +4,7 @@ div {
 div.penguins {
   background-image: url(../images/penguins.jpg);
   background-repeat: no-repeat;
-  background-size: auto 200px;
+  background-size: auto 230px;
   background-origin: content-box;
   background-position: 50% 50%;
   -webkit-filter: sepia(40%);
@@ -13,7 +13,7 @@ div.penguins {
   border-radius: 60%;
   height: 200px;
   width: 400px;
-}
+}<!--keep this first one above-->
 div.penguins1 {
   background-image: url(../images/penguins.jpg);
   background-repeat: no-repeat;
