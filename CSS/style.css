@@ -31,6 +31,6 @@ div.dinosaur {
   background-position: 50% 50%;
   background-origin: content-box;
   height: 200px;
-  -webkit-filter: drop-shadow(-5px 5px 5px #000000);
-  filter: drop-shadow(-5px 5px 5px #000000);
+  -webkit-filter: drop-shadow(5px 5px 5px #000000);
+  filter: drop-shadow(5px 5px 5px #000000);
 }
