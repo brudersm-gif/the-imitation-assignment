@@ -13,55 +13,15 @@ div.penguins {
   border-radius: 60%;
   height: 200px;
   width: 400px;
-}<!--keep this first one above-->
-div.penguins1 {
-  background-image: url(../images/penguins.jpg);
-  background-repeat: no-repeat;
-  background-size: auto 230px;
-  background-origin: content-box;
-  background-position: 50% 50%;
-  -webkit-filter: sepia(40%);
-  filter: sepia(40%);
-  border: 3px solid black;
-  border-radius: 60%;
-  height: 200px;
-  width: 400px;
 }
-div.penguins2 {
-  background-image: url(../images/penguins.jpg);
-  background-repeat: no-repeat;
-  background-size: auto 240px;
-  background-origin: content-box;
-  background-position: 50% 50%;
-  -webkit-filter: sepia(40%);
-  filter: sepia(40%);
-  border: 3px solid black;
-  border-radius: 60%;
-  height: 200px;
-  width: 400px;
-}
-div.penguins3 {
-  background-image: url(../images/penguins.jpg);
-  background-repeat: no-repeat;
-  background-size: auto 250px;
-  background-origin: content-box;
-  background-position: 50% 50%;
-  -webkit-filter: sepia(40%);
-  filter: sepia(40%);
-  border: 3px solid black;
-  border-radius: 60%;
-  height: 200px;
-  width: 400px;
-}
-
-/* other images here */
+/* image above is good - will leave like that */
 div.football_field {
   background-image: url(../images/football_field.jpg);
   background-repeat: no-repeat;
   background-size: auto 200px;
   background-position: 50% 50%;
   background-origin: content-box;
-  border: 1px solid black;
+  border: 30px solid black;
   border-image: url(../images/tic-tac-toe.png) 30 round;
   height: 200px;
   -webkit-filter: grayscale(100%);
@@ -75,5 +35,5 @@ div.dinosaur {
   background-origin: content-box;
   height: 200px;
   -webkit-filter: drop-shadow(5px 5px 5px #000000);
-  filter: drop-shadow(5px 5px 5px #000000);
+  filter: drop-shadow(5px 5px 5px #000000), hue-rotate(90deg);
 }
