@@ -43,7 +43,7 @@ div.penguins2 {
 div.penguins3 {
   background-image: url(../images/penguins.jpg);
   background-repeat: no-repeat;
-  background-size: auto 285px;
+  background-size: auto 250px;
   background-origin: content-box;
   background-position: 50% 50%;
   -webkit-filter: sepia(20%);
