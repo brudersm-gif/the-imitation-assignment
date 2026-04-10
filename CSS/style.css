@@ -72,9 +72,9 @@ div.butterfly {
   background-position: 50% 50%;
   background-origin: content-box;
   border: 1px solid white;
-  border-radius: 60% 0%;
-  -webkit-filter: invert(100%) brightness(150);
-  filter: invert(100%) brightness(150);
+  border-radius: 50% 0%;
+  -webkit-filter: invert(100%) brightness(110);
+  filter: invert(100%) brightness(110);
   height: 200px;
   width: 400px;
 }
