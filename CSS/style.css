@@ -12,9 +12,9 @@ div.penguins {
   border: 3px solid black;
   border-radius: 60%;
   height: 200px;
-  width: 400px;
+  width: 350px;
+  margin-bottom: 60px;
 }
-/* image above is good - will leave like that */
 div.football_field {
   background-image: url(../images/football_field.jpg);
   background-repeat: no-repeat;
@@ -27,6 +27,7 @@ div.football_field {
   width: 400px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  margin-bottom: 60px;
 }
 div.dinosaur {
   background-image: url(../images/dinosaur.png);
@@ -34,59 +35,60 @@ div.dinosaur {
   background-size: auto 200px;
   background-position: 50% 50%;
   background-origin: content-box;
-  border: 1px solid black;
   height: 200px;
   width: 400px;
   -webkit-filter: drop-shadow(5px 5px 5px #000000) hue-rotate(90deg);
   filter: drop-shadow(5px 5px 5px #000000) hue-rotate(90deg);
+  margin-bottom: 60px;
 }
-/* --above is good i think - seagull below needs to edit shadows a bit. make them go down */
 div.seagull {
   background-image: url(../images/seagull.png), linear-gradient(to bottom right, rgba(123, 104, 238, 0.70), rgba(230, 230, 250, 1.0), rgba(255, 250, 250, 1.0));
   background-repeat: no-repeat;
   background-size: auto 200px;
   background-position: 50% 50%;
   background-origin: content-box;
-  border: none;
-  -webkit-filter: drop-shadow(10px 10px 0px lightgrey);
-  filter: drop-shadow(10px 10px 0px lightgrey);
+  -webkit-filter: drop-shadow(0px 15px 5px lightgrey);
+  filter: drop-shadow(0px 10px 5px lightgrey);
   height: 200px;
   width: 400px;
-}
-div.seagull2 {
-  background-image: url(../images/seagull.png), linear-gradient(to bottom right, rgba(123, 104, 238, 0.70), rgba(230, 230, 250, 1.0), rgba(255, 250, 250, 1.0));
-  background-repeat: no-repeat;
-  background-size: auto 200px;
-  background-position: 50% 50%;
-  background-origin: content-box;
-  border: 1px solid white;
-  -webkit-filter: drop-shadow(5px 5px 5px lightgrey);
-  filter: drop-shadow(5px 5px 5px lightgrey);
-  height: 200px;
-  width: 400px;
+  margin-bottom: 60px;
 }
 div.butterfly {
   background-image: url(../images/butterfly.jpg);
   background-repeat: no-repeat;
-  background-size: auto 200px;
+  background-size: auto 230px;
   background-position: 50% 50%;
   background-origin: content-box;
   border: 1px solid white;
-  border-radius: 50% 0%;
-  -webkit-filter: invert(100%) brightness(105%);
-  filter: invert(100%) brightness(105%);
+  border-radius: 100px 0px;
+  -webkit-filter: invert(100%) brightness(160%) saturate(50%);
+  filter: invert(100%) brightness(160%) saturate(60%);
   height: 200px;
-  width: 400px;
+  width: 360px;
 }
-div.butterfly2 {
-  background-image: url(../images/butterfly.jpg);
-  background-repeat: no-repeat;
-  background-size: auto 200px;
-  background-position: 50% 50%;
-  background-origin: content-box;
-  border: 1px solid black;
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-  height: 200px;
-  width: 400px;
+div.theater {
+	height: 200px;
+	width: 200px;
 }
+div.div2 {
+	background-image: url(../images/theater_stage.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 200px;
+	background-position: 50% 50%;
+	background-origin: content-box;
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	height: 200px;
+	width: 200px;
+	z-index:100;
+}
+p {
+	position: relative; top: 70%; left: 35px;
+	color: white;
+	font-size: 28px;
+	font-family: Arial;
+	-webkit-filter: drop-shadow(5px 5px 5px black);
+	filter: drop-shadow(5px 5px 5px black);
+	z-index:200;
+}
+
